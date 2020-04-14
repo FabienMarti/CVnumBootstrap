@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8" />
+        <title>Accueil</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/bs/bootstrap.css" />
+        <link rel="stylesheet" type="text/css" href="assets/css/index.css" />
+        <link rel="stylesheet" type="text/css" href="assets/css/header.css" />
+        <script>
+            function myFunction() {
+                var popup = document.getElementById("myPopup");
+                popup.classList.toggle("show");
+            }
+        </script>
+    </head>
+
+    <body>
+        <header>
+            <div id="identityDiv">
+                <h1>MARTIRETTI FABIEN</h1>
+                <h2>Développeur Web et Web Mobile</h2>
+            </div>
+            <div id="nav">
+                <ul>
+                    <li><a id="activeLink" class="button" href="index.html" title="Accueil">ACCUEIL</a></li>
+                    <li><a class="button" href="experiences.html" title="Expériences">EXPÉRIENCES</a></li>
+                    <li><a class="button" href="formations.html" title="Formations">FORMATIONS</a></li>
+                    <li><a class="button" href="skills.html" title="Compétences">COMPÉTENCES</a></li>
+                    <li><a class="button" href="projects.html" title="Projets">PROJETS</a></li>
+                </ul>
+                <a target="_blank" href="assets/media/CV_Martiretti.pdf" download="CV MARTIRETTI">
+                    <div id="dwnl">
+                        <div>
+                            <image id="dwnlArrow" titre="Télécharger"
+                                alt="Image d'une flèche qui symbole le téléchargement" src="assets/img/dwnl.png" />
+                        </div>
+                        <p>TÉLÉCHARGER</p>
+                    </div>
+                </a>
+            </div>
+        </header>
+        <aside id="asideLeft">
+            <div id="identity">
+                <image title="Ma Photo" alt="UnePhotoDuCandidat" src="assets/img/moi.jpg" style="height: 200px;" />
+                <ul style="padding-top: 50px;">
+                    <li>28 ans</li>
+                    <li>Permis A</li>
+                    <li>Creil</li>
+                </ul>
+            </div>
+            <div id="contact">
+                <h2 class="blueTitle">Contact</h2>
+                <div class="contactDiv">
+                    <a href="contact.html">
+                        <image style="width: 60px; margin-left : 35px; margin-top: 15px;" src="assets/img/mail.png" />
+                    </a>
+                </div>
+                <div class="contactDiv">
+                    <div class="popup" onclick="myFunction()">
+                        <image style="width: 100px; margin-left : 15px; margin-top: 10px;"
+                            src="assets/img/mobile.png" /><span class="popuptext" id="myPopup">Tel :
+                            07.86.75.19.88</span></div>
+
+                </div>
+            </div>
+        </aside>
+        <section>
+            <div>
+                <h2 class="blueTitle">
+                    <image style="width: 30px;margin-right: 5px;" src="assets/img/whoami.png" />QUI SUIS-JE ?</h2>
+            </div>
+            <div style="background-color: white; margin: 10px;">
+                <p><span class="marge">Je m'appelle Martiretti Fabien</span>, je suis titulaire d'un
+                    Baccalauréat Professionnel dans le domaine de
+                    la Fonderie, ainsi
+                    que d'un Brevet de Technicien supérieur dans le même domaine, j'ai principalement travaillé dans le
+                    domaine du loisir et
+                    de la culture, notament au cinéma Pathé de Montataire dans l'Oise.</br></br>
+                    <span class="marge">J’ai </span>découvert le développement sur OpenClassRoom, j’ai appris à
+                    développer en amateur sur Unity
+                    (C#), j’ai ensuite commencé à rechercher des formations en développement tout en apprenant le
+                    HTML/CSS, le PHP,
+                    MyAdmin, et le JavaScript, j’ai même développé un site Web. J’aime le développement sous toutes ses
+                    formes, c’est
+                    l’avenir.</br></br>
+                    <span class="marge">Je veux</span> devenir développeur Web et Web mobile, puis plus tard passer au
+                    niveau supérieur, concepteur
+                    d’applications.
+                </p>
+            </div>
+
+            <h2 class="blueTitle">
+                <image style="width: 30px;margin-right: 5px;" src="assets/img/exp.png" />EXPÉRIENCES</h2>
+            </div>
+            <div style="background-color: white; margin: 10px;">
+                <h2>Développement d'un site Web (6 mois)</h2>
+
+
+
+            </div>
+            <div style="background-color: white; margin: 10px;">
+                <h2>Agent-Polyvalent</h2>
+                <h3>Pathé</h3>
+                <h3>2014-2016</h3>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+
+            </div>
+            <div style="background-color: white; margin: 10px;">
+                <h2>Agent d'entretien</h2>
+                <h3>Parc Astérix</h3>
+                <h3>2013</h3>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+
+            </div>
+
+
+
+
+
+        </section>
+        <aside id="asideRight">
+            <div>
+
+                <h2 class="blueTitle">
+                    <image style="width: 30px;margin-right: 5px;" src="assets/img/exp.png" />COMPÉTENCES</h2>
+            </div>
+            <div style="background-color: white; margin: 10px;">
+                <h2>Informatique/Web</h2>
+                <ul>
+                    <li>HTML/CSS</li>
+                    <li>PHP</li>
+                    <li>JavaScript</li>
+                    <li>MicrosoftOffice</li>
+                </ul>
+            </div>
+        </aside>
+
+    </body>
+
+</html>
