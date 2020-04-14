@@ -1,117 +1,30 @@
-#asideLeft{
-    float: left;
-    margin-left: 10%;
-    margin-top: 3%;
-    width: 15%;
-    height: auto;
-    
-}
-section{
-    margin-top: 3%;
-    float: left;
-    height: 800px;
-    width: 45%;
-    padding:20px;
-}
-#asideRight{
-    margin-right: 10%;
-    margin-top: 3%;
-    float: left;
-    height: 800px;
-    width: 15%;
-}
-
 #identity{
-    padding: 10px;
-    height: 200px;
     background-color: #E8E8E9;
 }
 #identity li{
     list-style: none;
     margin: 0 0 15px 0;   
 }
-#identity > *{
-    float:left;
-}
+
 #contact{
-    margin-top: 10px;
-    height: 150px;
     background-color: #E8E8E9;
 }
 .contactDiv{
-    width: 131px;
-    height: 50%;
-    margin-top: 20px;
-    margin-left: 5px;
-    margin-right: 5px;
     background-color: #DEDEDF;
-    border-radius: 15px;
-    float: left;
-}
-h3{
-    color: #C0C0C0;
 }
 .blueTitle{
     color:#50A3D9;
 }
-.marge{
-    margin-left: 5em;
-}
-#dwnlArrow{
+
+/* #dwnlArrow{
   height: 40px; 
   float: left; 
   padding-top: 3px;
+} */
+.moiPhoto{
+    height: 180px;
+    overflow: hidden;
 }
-/* Pop-Up */
-/* Popup container */
-.popup {
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
-}
-
-/* The actual popup (appears on top) */
-.popup .popuptext {
-  visibility: hidden;
-  width: 160px;
-  background-color: #555;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 8px 0;
-  position: absolute;
-  z-index: 1;
-  bottom: 125%;
-  left: 50%;
-  margin-left: -80px;
-}
-
-/* Popup arrow */
-.popup .popuptext::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: #555 transparent transparent transparent;
-}
-
-/* Toggle this class when clicking on the popup container (hide and show the popup) */
-.popup .show {
-  visibility: visible;
-  -webkit-animation: fadeIn 1s;
-  animation: fadeIn 1s
-}
-
-/* Add animation (fade in the popup) */
-@-webkit-keyframes fadeIn {
-  from {opacity: 0;}
-  to {opacity: 1;}
-}
-
-@keyframes fadeIn {
-  from {opacity: 0;}
-  to {opacity:1 ;}
+li{
+  list-style: none;
 }
