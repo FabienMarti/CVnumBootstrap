@@ -31,16 +31,16 @@
                 <div class="collapse navbar-collapse" id="navbarToggler">
                     <ul class="navbar-nav mr-auto mt-2 mt-lg-0 text-center">
                         <li class="nav-item mx-md-2 border rounded"><a data-toggle="collapse" data-target="#navbarToggler" class="nav-link" onclick="show('Page1');">ACCUEIL</a></li>
-                        <li class="nav-item mx-md-2 border rounded"><a data-toggle="collapse" data-target="#navbarToggler" class="nav-link">EXPÉRIENCES</a></li>
-                        <li class="nav-item mx-md-2 border rounded"><a data-toggle="collapse" data-target="#navbarToggler" class="nav-link">FORMATIONS</a></li>
                         <li class="nav-item mx-md-2 border rounded"><a data-toggle="collapse" data-target="#navbarToggler" class="nav-link" onclick="show('Page2');">COMPÉTENCES</a></li>
-                        <li class="nav-item mx-md-2 border rounded"><a data-toggle="collapse" data-target="#navbarToggler" class="nav-link">PROJETS</a></li>
+                        <li class="nav-item mx-md-2 border rounded"><a data-toggle="collapse" data-target="#navbarToggler" class="nav-link" onclick="show('Page3');">EXPÉRIENCES</a></li>
+                        <li class="nav-item mx-md-2 border rounded"><a data-toggle="collapse" data-target="#navbarToggler" class="nav-link" onclick="show('Page4');">FORMATIONS</a></li>
+                        <li class="nav-item mx-md-2 border rounded"><a data-toggle="collapse" data-target="#navbarToggler" class="nav-link" onclick="show('Page5');">PROJETS</a></li>
                     </ul>
                 </div>
             </nav>
         </header>
         <!--Accueil-->
-        <section id="Page1" class="page container-fluid" style="display:none">
+        <section id="Page1" class="page container-fluid">
             <!--Section identité-->
             <div id="identity" class="row">
                 <image class="col-6 img-fluid moiPhoto" src="assets/img/moi.jpg" />
@@ -270,74 +270,87 @@
             </div>
         </section>
         <!--Formations-->
-        <section>
-            <div id="diplomeDiv">
-                <div>
-                    <image title="Diplome" alt="image d'un Diplome'" style="padding-top: 8px; float:left; width: 50px;" src="assets/img/diplome.png" />
-                    <h2 class="blueTitle" style="float:left; text-decoration: underline;">Titre Professionnel
-                        Développeur Web et Web Mobile (RNCP 31114)</h2>
-                    <ul style="padding-top: 70px;">
-                        <li>
-                            <image style="margin-bottom: 5px;" src="assets/img/schedule.png" /> 2019 </li>
-                        <li>
-                            <image style="width: 50px;" src="assets/img/map.png" /> Noyon sur Oise
-                        </li>
-                    </ul>
+        <section id="Page4" class="page container-fluid" style="display:none">
+            <div class="mt-2 border">
+                <div class="row">
+                    <image class="img-fluid col-3" title="Diplome" alt="image d'un diplome" src="assets/img/diplome.png" />
+                    <p class="blueTitle col m-auto text-center">Titre Professionnel Développeur Web et Web Mobile</p>
                 </div>
-
-                <div>
-                    <image title="Diplome" alt="image d'un Diplome" style="padding-top: 8px; float:left; width: 50px;" src="assets/img/diplome.png" />
-                    <h2 class="blueTitle" style="float:left; text-decoration: underline;">Certificat de reussite HTML5
-                        et CSS3 <a target="_blank" title="Certificat" href="assets/img/HTML & CSS.jpg">(consulter)</a>
-                    </h2>
-                    <ul style="padding-top: 70px;">
-                        <li>
-                            <image style="margin-bottom: 5px;" src="assets/img/schedule.png" /> 2019 </li>
-                        <li>
-                            <image style="width: 50px;" src="assets/img/map.png" /> Creil sur Oise
-                        </li>
-                    </ul>
+                <div class="row mt-2">
+                    <image class="col-2 img-fluid offset-4" src="assets/img/schedule.png" />
+                    <p class="col-6 m-auto ">2020</p>
                 </div>
-
-                <div>
-                    <image title="Diplome" alt="image d'un Diplome'" style="padding-top: 8px; float:left; width: 50px;" src="assets/img/diplome.png" />
-                    <h2 class="blueTitle" style="float:left; text-decoration: underline;">Certificat de reussite
-                        JavaScript <a target="_blank" title="Certificat" href="assets/img/JavaScript.jpg">(consulter)</a></h2>
-                    <ul style="padding-top: 70px;">
-                        <li>
-                            <image style="margin-bottom: 5px;" src="assets/img/schedule.png" /> 2019 </li>
-                        <li>
-                            <image style="width: 50px;" src="assets/img/map.png" /> Creil sur Oise
-                        </li>
-                    </ul>
+                <div class="row mt-2">
+                    <image class="col-2 img-fluid offset-4" src="assets/img/map.png" />
+                    <p class="col-6 m-auto ">Noyon sur Oise</p>
                 </div>
-                <div>
-                    <image title="Diplome" alt="image d'un Diplome'" style="padding-top: 8px; float:left; width: 50px;" src="assets/img/diplome.png" />
-                    <h2 class="blueTitle" style="float:left; text-decoration: underline;">Brevet de Technicien Supérieur
-                        de Fonderie</h2>
-                    <ul style="padding-top: 70px;">
-                        <li>
-                            <image style="margin-bottom: 5px;" src="assets/img/schedule.png" /> 2009/2012 </li>
-                        <li>
-                            <image style="width: 50px;" src="assets/img/map.png" /> Creil sur Oise
-                        </li>
-                    </ul>
+            </div>
+            <!---->
+            <div class="mt-2 border">
+                <div class="row">
+                    <image class="img-fluid col-3" title="Diplome" alt="image d'un diplome" src="assets/img/diplome.png" />
+                    <p class="blueTitle col m-auto text-center">Certificat de reussite HTML5
+                        et CSS3<a target="_blank" title="Certificat" href="assets/img/HTML & CSS.jpg">(consulter)</a></p>
                 </div>
-                <div>
-                    <image title="Diplome" alt="image d'un Diplome'" style="padding-top: 8px; float:left; width: 50px;" src="assets/img/diplome.png" />
-                    <h2 class="blueTitle" style="float:left; text-decoration: underline;">Baccalauréat Professionnel de
-                        Fonderie</h2>
-                    <ul style="padding-top: 70px;">
-                        <li>
-                            <image style="margin-bottom: 5px;" src="assets/img/schedule.png" /> 2006/2009 </li>
-                        <li>
-                            <image style="width: 50px;" src="assets/img/map.png" /> Creil sur Oise
-                        </li>
-                    </ul>
+                <div class="row mt-2">
+                    <image class="col-2 img-fluid offset-4" src="assets/img/schedule.png" />
+                    <p class="col-6 m-auto ">2019</p>
+                </div>
+                <div class="row mt-2">
+                    <image class="col-2 img-fluid offset-4" src="assets/img/map.png" />
+                    <p class="col-6 m-auto ">Creil sur Oise</p>
+                </div>
+            </div>
+            <!---->
+            <div class="mt-2 border">
+                <div class="row">
+                    <image class="img-fluid col-3" title="Diplome" alt="image d'un diplome" src="assets/img/diplome.png" />
+                    <p class="blueTitle col m-auto text-center">Certificat de reussite JavaScript<a target="_blank" title="Certificat" href="assets/img/JavaScript.jpg">(consulter)</a></p>
+                </div>
+                <div class="row mt-2">
+                    <image class="col-2 img-fluid offset-4" src="assets/img/schedule.png" />
+                    <p class="col-6 m-auto ">2019</p>
+                </div>
+                <div class="row mt-2">
+                    <image class="col-2 img-fluid offset-4" src="assets/img/map.png" />
+                    <p class="col-6 m-auto ">Creil sur Oise</p>
+                </div>
+            </div>
+            <!---->
+            <div class="mt-2 border">
+                <div class="row">
+                    <image class="img-fluid col-3" title="Diplome" alt="image d'un diplome" src="assets/img/diplome.png" />
+                    <p class="blueTitle col m-auto text-center">Brevet de Technicien Supérieur
+                        de Fonderie</p>
+                </div>
+                <div class="row mt-2">
+                    <image class="col-2 img-fluid offset-4" src="assets/img/schedule.png" />
+                    <p class="col-6 m-auto ">2009/2012</p>
+                </div>
+                <div class="row mt-2">
+                    <image class="col-2 img-fluid offset-4" src="assets/img/map.png" />
+                    <p class="col-6 m-auto ">Nogent sur Oise</p>
+                </div>
+            </div>
+            <!---->
+            <div class="mt-2 border">
+                <div class="row">
+                    <image class="img-fluid col-3" title="Diplome" alt="image d'un diplome" src="assets/img/diplome.png" />
+                    <p class="blueTitle col m-auto text-center">Baccalauréat Professionnel de Fonderie</p>
+                </div>
+                <div class="row mt-2">
+                    <image class="col-2 img-fluid offset-4" src="assets/img/schedule.png" />
+                    <p class="col-6 m-auto ">2006/2009</p>
+                </div>
+                <div class="row mt-2">
+                    <image class="col-2 img-fluid offset-4" src="assets/img/map.png" />
+                    <p class="col-6 m-auto ">Nogent sur Oise</p>
                 </div>
             </div>
         </section>
-
+        <!--Projets-->
+        <section id="Page5" class="page container-fluid" style="display:none">
+        </section>
         <!--Scripts-->
         <script src="assets/js/script.js"></script>
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
