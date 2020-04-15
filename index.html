@@ -40,7 +40,7 @@
             </nav>
         </header>
         <!--Accueil-->
-        <section id="Page1" class="page container-fluid">
+        <section id="Page1" class="page container-fluid" style="display:none">
             <!--Section identité-->
             <div id="identity" class="row">
                 <image class="col-6 img-fluid moiPhoto" src="assets/img/moi.jpg" />
@@ -115,10 +115,25 @@
                 <image class="col-3 img-fluid py-4" src="assets/img/mobile.png" />
                 <p class="my-auto text-right">: 07.86.75.19.88</p>
             </div>
+            <!--<aside class="col" id="asideRight">
+                                                <div>
+                                                    <h2 class="blueTitle">
+                                                        <image style="width: 30px;margin-right: 5px;" src="assets/img/exp.png" />COMPÉTENCES</h2>
+                                                </div>
+                                                <div style="background-color: white; margin: 10px;">
+                                                    <h2>Informatique/Web</h2>
+                                                    <ul>
+                                                        <li>HTML/CSS</li>
+                                                        <li>PHP</li>
+                                                        <li>JavaScript</li>
+                                                        <li>MicrosoftOffice</li>
+                                                    </ul>
+                                                </div>
+            </aside> -->
         </section>
         <!--Compétences-->
-        <section id="Page2" class="page" style="display:none">
-            <div class="container-fluid" id="frontEnd">
+        <section id="Page2" class="page container-fluid" style="display:none">
+            <div>
                 <div class="row py-2">
                     <image class="col-3 img-fluid" title="Front-end" alt="image de chevrons" src="assets/img/frontend.png" />
                     <button class="btn" type="button" data-toggle="collapse" data-target="#collapseFrontEnd" aria-expanded="false" aria-controls="collapseFrontEnd">
@@ -142,7 +157,7 @@
                     </div>
                 </div>
             </div>
-            <div class="container-fluid" id="backEnd">
+            <div id="backEnd">
                 <div class="row py-2">
                     <image class="col-3 img-fluid" title="Back-end" alt="image d'engrenages" src="assets/img/backEnd.png" />
                     <button class="btn" type="button" data-toggle="collapse" data-target="#collapseBackEnd" aria-expanded="false" aria-controls="collapseBackEnd">
@@ -162,7 +177,7 @@
                     </div>
                 </div>
             </div>
-            <div class="container-fluid" id="autres">
+            <div id="autres">
                 <div class="row py-2">
                     <image class="col-3 img-fluid" title="Autres" alt="image autres" src="assets/img/autres.png" />
                     <button class="btn" type="button" data-toggle="collapse" data-target="#collapseAutres" aria-expanded="false" aria-controls="collapseAutres">
@@ -190,29 +205,138 @@
                     </div>
                 </div>
         </section>
+        <!--Expériences-->
+        <section id="Page3" class="page container-fluid" style="display:none">
+            <div class="mt-2 border">
+                <div class="row">
+                    <image class="img-fluid col-3" title="PC Coding" alt="image d'un pc portable" src="assets/img/codagePro.png" />
+                    <p class="blueTitle col m-auto text-center">Formation Developpeur web et web mobile</p>
+                </div>
 
+                <div class="row mt-2">
+                    <image class="col-2 img-fluid offset-4" src="assets/img/schedule.png" />
+                    <p class="col-6 m-auto ">2020</p>
+                </div>
+                <div class="row mt-2">
+                    <image class="col-2 img-fluid offset-4" src="assets/img/map.png" />
+                    <p class="col-6 m-auto ">Noyon sur Oise</p>
+                </div>
 
-
-
-
-
-
-        <!--<aside class="col" id="asideRight">
-            <div>
-                <h2 class="blueTitle">
-                    <image style="width: 30px;margin-right: 5px;" src="assets/img/exp.png" />COMPÉTENCES</h2>
             </div>
-            <div style="background-color: white; margin: 10px;">
-                <h2>Informatique/Web</h2>
-                <ul>
-                    <li>HTML/CSS</li>
-                    <li>PHP</li>
-                    <li>JavaScript</li>
-                    <li>MicrosoftOffice</li>
-                </ul>
+            <!---->
+            <div class="mt-2 border">
+                <div class="row">
+                    <image class="img-fluid col-3" title="Code" alt="image d'une page de code" src="assets/img/codage.webp" />
+                    <p class="blueTitle col m-auto text-center">Développeur site Web amateur</p>
+                </div>
+                <div class="row mt-2">
+                    <image class="col-2 img-fluid offset-4" src="assets/img/schedule.png" />
+                    <p class="col-6 m-auto text-left">2019</p>
+                </div>
+                <div class="row mt-2">
+                    <image class="col-2 img-fluid offset-4" src="assets/img/map.png" />
+                    <p class="col-6 m-auto text-left">Creil sur Oise</p>
+                </div>
             </div>
-        </aside> -->
+            <!---->
+            <div class="mt-2 border">
+                <div class="row">
+                    <image class="img-fluid col-3" title="Cinéma" alt="icone d'un cinéma" src="assets/img/cinema.png" />
+                    <p class="blueTitle col m-auto text-center">Employé Polyvalent</p>
+                </div>
+                <div class="row mt-2">
+                    <image class="col-2 img-fluid offset-4" src="assets/img/schedule.png" />
+                    <p class="col-6 m-auto text-left">2014/2016</p>
+                </div>
+                <div class="row mt-2">
+                    <image class="col-2 img-fluid offset-4" src="assets/img/map.png" />
+                    <p class="col-6 m-auto text-left">Montataire</p>
+                </div>
+            </div>
+            <!---->
+            <div class="mt-2 border">
+                <div class="row">
+                    <image class="img-fluid col-3" title="Astérix" alt="icone d'un parc d'attraction" src="assets/img/asterix.png" />
+                    <p class="blueTitle col m-auto text-center">Agent de propreté</p>
+                </div>
+                <div class="row mt-2">
+                    <image class="col-2 img-fluid offset-4" src="assets/img/schedule.png" />
+                    <p class="col-6 m-auto text-left">2013</p>
+                </div>
+                <div class="row mt-2">
+                    <image class="col-2 img-fluid offset-4" src="assets/img/map.png" />
+                    <p class="col-6 m-auto text-left">Plailly</p>
+                </div>
+            </div>
+        </section>
+        <!--Formations-->
+        <section>
+            <div id="diplomeDiv">
+                <div>
+                    <image title="Diplome" alt="image d'un Diplome'" style="padding-top: 8px; float:left; width: 50px;" src="assets/img/diplome.png" />
+                    <h2 class="blueTitle" style="float:left; text-decoration: underline;">Titre Professionnel
+                        Développeur Web et Web Mobile (RNCP 31114)</h2>
+                    <ul style="padding-top: 70px;">
+                        <li>
+                            <image style="margin-bottom: 5px;" src="assets/img/schedule.png" /> 2019 </li>
+                        <li>
+                            <image style="width: 50px;" src="assets/img/map.png" /> Noyon sur Oise
+                        </li>
+                    </ul>
+                </div>
 
+                <div>
+                    <image title="Diplome" alt="image d'un Diplome" style="padding-top: 8px; float:left; width: 50px;" src="assets/img/diplome.png" />
+                    <h2 class="blueTitle" style="float:left; text-decoration: underline;">Certificat de reussite HTML5
+                        et CSS3 <a target="_blank" title="Certificat" href="assets/img/HTML & CSS.jpg">(consulter)</a>
+                    </h2>
+                    <ul style="padding-top: 70px;">
+                        <li>
+                            <image style="margin-bottom: 5px;" src="assets/img/schedule.png" /> 2019 </li>
+                        <li>
+                            <image style="width: 50px;" src="assets/img/map.png" /> Creil sur Oise
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <image title="Diplome" alt="image d'un Diplome'" style="padding-top: 8px; float:left; width: 50px;" src="assets/img/diplome.png" />
+                    <h2 class="blueTitle" style="float:left; text-decoration: underline;">Certificat de reussite
+                        JavaScript <a target="_blank" title="Certificat" href="assets/img/JavaScript.jpg">(consulter)</a></h2>
+                    <ul style="padding-top: 70px;">
+                        <li>
+                            <image style="margin-bottom: 5px;" src="assets/img/schedule.png" /> 2019 </li>
+                        <li>
+                            <image style="width: 50px;" src="assets/img/map.png" /> Creil sur Oise
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <image title="Diplome" alt="image d'un Diplome'" style="padding-top: 8px; float:left; width: 50px;" src="assets/img/diplome.png" />
+                    <h2 class="blueTitle" style="float:left; text-decoration: underline;">Brevet de Technicien Supérieur
+                        de Fonderie</h2>
+                    <ul style="padding-top: 70px;">
+                        <li>
+                            <image style="margin-bottom: 5px;" src="assets/img/schedule.png" /> 2009/2012 </li>
+                        <li>
+                            <image style="width: 50px;" src="assets/img/map.png" /> Creil sur Oise
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <image title="Diplome" alt="image d'un Diplome'" style="padding-top: 8px; float:left; width: 50px;" src="assets/img/diplome.png" />
+                    <h2 class="blueTitle" style="float:left; text-decoration: underline;">Baccalauréat Professionnel de
+                        Fonderie</h2>
+                    <ul style="padding-top: 70px;">
+                        <li>
+                            <image style="margin-bottom: 5px;" src="assets/img/schedule.png" /> 2006/2009 </li>
+                        <li>
+                            <image style="width: 50px;" src="assets/img/map.png" /> Creil sur Oise
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
 
         <!--Scripts-->
         <script src="assets/js/script.js"></script>
