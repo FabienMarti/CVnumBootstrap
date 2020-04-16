@@ -146,84 +146,123 @@
         <!--Compétences-->
         <section id="Page2" class="page container-fluid">
             <div>
-                <div class="row py-2">
-                    <div class="col-3 col-md-1 offset-md-4 img-fluid">
-                        <img title="Front-end" alt="img de chevrons" src="assets/img/frontend.png" />
+                <!---->
+                <div id="frontEnd">
+                    <div class="row py-2">
+                        <div class="col-3 col-md-1 offset-md-4 img-fluid">
+                            <img title="Front-end" alt="img de chevrons" src="assets/img/frontend.png" />
+                        </div>
+                        <button class="btn col-9 col-md-3" type="button" data-toggle="collapse" data-target="#collapseFrontEnd" aria-expanded="false" aria-controls="collapseFrontEnd">
+                            <span class="blueTitle m-auto h2">Front-end</span>
+                        </button>
                     </div>
-                    <button class="btn col-9 col-md-3" type="button" data-toggle="collapse" data-target="#collapseFrontEnd" aria-expanded="false" aria-controls="collapseFrontEnd">
-                        <span class="blueTitle m-auto h2">Front-end</span>
-                    </button>
-                </div>
-                <!--collapse-->
-                <div class=" py-2" id="collapseFrontEnd">
-                    <div class="card card-body">
-                        <div class="row text-center">
-                            <div class="col-2 col-md-1">
-                                <img title="HTML_5" alt="Logo du HTML_5" src="assets/img/HTML.png" />
+                    <div class="collapse py-2" id="collapseFrontEnd">
+                        <div class="card card-body">
+                            <div class="row">
+                                <div class="col-2 col-md-1 text-center offset-md-4">
+                                    <img title="HTML_5" alt="Logo du HTML_5" src="assets/img/HTML.png" />
+                                </div>
+                                <div class="col-10 col-md-3 my-auto">
+                                    <img alt="Jauge pour jauger le niveau" src="assets/img/jauges/jauge4-200x.png" />
+                                </div>
                             </div>
-                            <div class="col-10 h-25 m-auto">
-                                <img alt="Jauge pour jauger le niveau" src="assets/img/jauges/jauge4-200x.png" />
+                            <div class="row">
+                                <div class="col-2 col-md-1 text-center offset-md-4">
+                                    <img title="CSS_3" alt="Logo du CSS_3" src="assets/img/CSS.png" />
+                                </div>
+                                <div class="col-10 col-md-3 my-auto">
+                                    <img alt="Jauge pour jauger le niveau" src="assets/img/jauges/jauge3-200x.png">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-2 col-md-1 text-center offset-md-4">
+                                    <img title="JavaScript" alt="Logo du JavaScript" src="assets/img/JS.png" />
+                                </div>
+                                <div class="col-10 col-md-3 my-auto">
+                                    <img alt="Jauge pour jauger le niveau" src="assets/img/jauges/jauge2-200x.png">
+                                </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <img class="col-3 col-md-1" title="CSS_3" alt="Logo du CSS_3" src="assets/img/CSS.png" />
-                            <img class="col-9 h-25 m-auto" alt="Jauge pour jauger le niveau" src="assets/img/jauges/jauge3.png">
+                    </div>
+                </div>
+                <!---->
+                <div id="backEnd">
+                    <div class="row py-2">
+                        <div class="col-3 col-md-1 img-fluid offset-md-4">
+                            <img title="Back-end" alt="img d'engrenages" src="assets/img/backend.png" />
                         </div>
-                        <div class="row">
-                            <img class="col-3 col-md-1" title="JavaScript" alt="Logo du JavaScript" src="assets/img/JS.png" />
-                            <img class="col-9 h-25 m-auto" alt="Jauge pour jauger le niveau" src="assets/img/jauges/jauge2.png">
+                        <button class="btn col-9 col-md-3 " type="button" data-toggle="collapse" data-target="#collapseBackEnd" aria-expanded="false" aria-controls="collapseBackEnd">
+                            <span class="blueTitle m-auto h2">Back-end</span>
+                        </button>
+                    </div>
+                    <div class="collapse py-2" id="collapseBackEnd">
+                        <div class="card card-body">
+                            <div class="row ">
+                                <div class="col-2 col-md-1 text-center offset-md-4">
+                                    <img title="PHP" alt="Logo du PHP" src="assets/img/php.png" />
+                                </div>
+                                <div class="col-10 col-md-3 my-auto">
+                                    <img alt="Jauge pour jauger le niveau" src="assets/img/jauges/jauge3-200x.png">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-2 col-md-1 text-center offset-md-4">
+                                    <img title="MySQL" alt="Logo du MySQL" src="assets/img/mySQL.png" />
+                                </div>
+                                <div class="col-10 col-md-3 my-auto">
+                                    <img alt="Jauge pour jauger le niveau" src="assets/img/jauges/jauge2-200x.png">
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div id="backEnd">
-                <div class="row py-2">
-                    <img class="col-3 col-md-1 img-fluid offset-md-4" title="Back-end" alt="img d'engrenages" src="assets/img/backend.png" />
-                    <button class="btn col-9 col-md-3 " type="button" data-toggle="collapse" data-target="#collapseBackEnd" aria-expanded="false" aria-controls="collapseBackEnd">
-                        <span class="blueTitle m-auto h2">Back-end</span>
-                    </button>
-                </div>
-                <div class="collapse py-2" id="collapseBackEnd">
-                    <div class="card card-body">
-                        <div class="row">
-                            <img class="col-3 col-md-1" title="PHP" alt="Logo du PHP" src="assets/img/php.png" />
-                            <img class="col-9 h-25 m-auto" alt="Jauge pour jauger le niveau" src="assets/img/jauges/jauge3.png">
+                <!---->
+                <div id="autres">
+                    <div class="row py-2">
+                        <div class="col-3 col-md-1 img-fluid offset-md-4">
+                            <img title="Autres" alt="img autres" src="assets/img/autres.png" />
                         </div>
-                        <div class="row">
-                            <img class="col-3 col-md-1" title="MySQL" alt="Logo du MySQL" src="assets/img/mySQL.png" />
-                            <img class="col-9 h-25 m-auto" alt="Jauge pour jauger le niveau" src="assets/img/jauges/jauge2.png">
+                        <button class="btn col-9 col-md-3" type="button" data-toggle="collapse" data-target="#collapseAutres" aria-expanded="false" aria-controls="collapseAutres">
+                            <span class="blueTitle m-auto h2">Autres</span>
+                        </button>
+                    </div>
+                    <div class="collapse py-2" id="collapseAutres">
+                        <div class="card card-body">
+                            <div class="row">
+                                <div class="col-2 col-md-1 text-center offset-md-4">
+                                    <img title="VisualStudio" alt="Logo de Visual Studio" src="assets/img/visual.png" />
+                                </div>
+                                <div class="col-10 col-md-3 my-auto">
+                                    <img alt="Jauge pour jauger le niveau" src="assets/img/jauges/jauge4-200x.png">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-2 col-md-1 text-center offset-md-4">
+                                    <img title="Visual Code" alt="Logo de Visual Code" src="assets/img/visualcode.png" />
+                                </div>
+                                <div class="col-10 col-md-3 my-auto">
+                                    <img alt="Jauge pour jauger le niveau" src="assets/img/jauges/jauge4-200x.png">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-2 col-md-1 text-center offset-md-4">
+                                    <img title="Langage C#" alt="Logo du C#" src="assets/img/csharp.png" />
+                                </div>
+                                <div class="col-10 col-md-3 my-auto">
+                                    <img alt="Jauge pour jauger le niveau" src="assets/img/jauges/jauge4-200x.png">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-2 col-md-1 text-center offset-md-4">
+                                    <img title="Microsoft Office" alt="Logo de Microsoft office" src="assets/img/office.png" />
+                                </div>
+                                <div class="col-10 col-md-3 my-auto">
+                                    <img alt="Jauge pour jauger le niveau" src="assets/img/jauges/Jauge3-200x.png">
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div id="autres">
-                <div class="row py-2">
-                    <img class="col-3 col-md-1 img-fluid offset-md-4" title="Autres" alt="img autres" src="assets/img/autres.png" />
-                    <button class="btn col-9col-md-3" type="button" data-toggle="collapse" data-target="#collapseAutres" aria-expanded="false" aria-controls="collapseAutres">
-                        <span class="blueTitle m-auto h2">Autres</span>
-                    </button>
-                </div>
-                <div class="collapse py-2" id="collapseAutres">
-                    <div class="card card-body">
-                        <div class="row">
-                            <img class="col-3 col-md-1" title="VisualStudio" alt="Logo de Visual Studio" src="assets/img/visual.png" />
-                            <img class="col-9 h-25 m-auto" alt="Jauge pour jauger le niveau" src="assets/img/jauges/jauge4.png">
-                        </div>
-                        <div class="row">
-                            <img class="col-3 col-md-1" title="Visual Code" alt="Logo de Visual Code" src="assets/img/visualcode.png" />
-                            <img class="col-9 h-25 m-auto" alt="Jauge pour jauger le niveau" src="assets/img/jauges/jauge4.png">
-                        </div>
-                        <div class="row">
-                            <img class="col-3 col-md-1" title="Langage C#" alt="Logo du C#" src="assets/img/csharp.png" />
-                            <img class="col-9 h-25 m-auto" alt="Jauge pour jauger le niveau" src="assets/img/jauges/jauge4.png">
-                        </div>
-                        <div class="row">
-                            <img class="col-3 col-md-1" title="Microsoft Office" alt="Logo de Microsoft office" src="assets/img/office.png" />
-                            <img class="col-9 h-25 m-auto" alt="Jauge pour jauger le niveau" src="assets/img/jauges/Jauge3.png">
-                        </div>
-                    </div>
-                </div>
-            </div>
         </section>
         <!--Expériences-->
         <section id="Page3" class="page container-fluid" style="display:none">
