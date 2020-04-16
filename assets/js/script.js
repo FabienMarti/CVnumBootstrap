@@ -1,4 +1,5 @@
 // show the given page, hide the rest
+let title = "Accueil"
 function show(elementID) {
     // try to find the requested page and alert if it's not found
     var ele = document.getElementById(elementID);
@@ -15,4 +16,8 @@ function show(elementID) {
 
     // then show the requested page
     ele.style.display = 'block';
+}
+
+function displayTitle(title) {
+    document.getElementById("localizationTitle").innerHTML = title;
 }

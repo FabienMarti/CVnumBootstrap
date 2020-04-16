@@ -27,20 +27,25 @@
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <a class="navbar-brand" href="#">Menu</a>
+                <h1 class="navbar-brand" id="localizationTitle">Menu</h1>
                 <div class="collapse navbar-collapse" id="navbarToggler">
                     <ul class="navbar-nav mr-auto mt-2 mt-lg-0 text-center">
-                        <li class="nav-item mx-md-2 border rounded"><a data-toggle="collapse" data-target="#navbarToggler" class="nav-link" onclick="show('Page1');">ACCUEIL</a></li>
-                        <li class="nav-item mx-md-2 border rounded"><a data-toggle="collapse" data-target="#navbarToggler" class="nav-link" onclick="show('Page2');">COMPÉTENCES</a></li>
-                        <li class="nav-item mx-md-2 border rounded"><a data-toggle="collapse" data-target="#navbarToggler" class="nav-link" onclick="show('Page3');">EXPÉRIENCES</a></li>
-                        <li class="nav-item mx-md-2 border rounded"><a data-toggle="collapse" data-target="#navbarToggler" class="nav-link" onclick="show('Page4');">FORMATIONS</a></li>
-                        <li class="nav-item mx-md-2 border rounded"><a data-toggle="collapse" data-target="#navbarToggler" class="nav-link" onclick="show('Page5');">PROJETS</a></li>
+                        <li class="nav-item mx-md-2 border rounded"><a data-toggle="collapse" data-target="#navbarToggler" class="nav-link"
+                                onclick="show('Page1'), displayTitle('Accueil');">ACCUEIL</a></li>
+                        <li class="nav-item mx-md-2 border rounded"><a data-toggle="collapse" data-target="#navbarToggler" class="nav-link"
+                                onclick="show('Page2'), displayTitle('Compétences');">COMPÉTENCES</a></li>
+                        <li class="nav-item mx-md-2 border rounded"><a data-toggle="collapse" data-target="#navbarToggler" class="nav-link"
+                                onclick="show('Page3'), displayTitle('Expériences');">EXPÉRIENCES</a></li>
+                        <li class="nav-item mx-md-2 border rounded"><a data-toggle="collapse" data-target="#navbarToggler" class="nav-link"
+                                onclick="show('Page4'), displayTitle('Formations');">FORMATIONS</a></li>
+                        <li class="nav-item mx-md-2 border rounded"><a data-toggle="collapse" data-target="#navbarToggler" class="nav-link"
+                                onclick="show('Page5'), displayTitle('Projets');">PROJETS</a></li>
                     </ul>
                 </div>
             </nav>
         </header>
         <!--Accueil-->
-        <section id="Page1" class="page container-fluid" style="display:none">
+        <section id="Page1" class="page container-fluid">
             <div class="row">
                 <!--Section identité-->
                 <div class="col-md-2">
@@ -353,7 +358,7 @@
             </div>
         </section>
         <!--Formations-->
-        <section id="Page4" class="page container-fluid">
+        <section id="Page4" class="page container-fluid" style="display:none">
             <div class="mt-2 border">
                 <div class="row">
                     <div class="img-fluid col-3 col-md-1 mt-md-3 offset-md-3 text-center">
