@@ -10,3 +10,9 @@ a:hover{
 #activeLink{
     border-bottom: 5px solid  #236FA0;
 }
+#bannerMain{
+    background-image: url('../img/backgroundBanner.jpg');
+}
+.shadowLow{
+    text-shadow: black 1px 1px 1px;
+}

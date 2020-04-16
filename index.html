@@ -12,13 +12,13 @@
 
     <body>
         <!--Barre de Navigation-->
-        <header>
-            <div class="container-fluid bg-primary">
+        <header id="bannerMain">
+            <div class="container-fluid">
                 <!-- Titre -->
                 <div class="row">
                     <div>
-                        <h1 class="text-center text-md-left">MARTIRETTI FABIEN</h1>
-                        <h2 class="text-center text-md-left">Développeur Web et Web Mobile</h2>
+                        <h1 class="text-center text-white text-md-left shadowLow">MARTIRETTI FABIEN</h1>
+                        <h2 class="text-center text-white text-md-left shadowLow">Développeur Web et Web Mobile</h2>
                     </div>
                 </div>
             </div>
@@ -45,7 +45,7 @@
             </nav>
         </header>
         <!--Accueil-->
-        <section id="Page1" class="page container-fluid">
+        <section id="Page1" class="page mt-3 container-fluid">
             <div class="row">
                 <!--Section identité-->
                 <div class="col-md-2">
@@ -72,7 +72,7 @@
                                 <img alt="icone d'un visage" src="assets/img/whoami50x50.png" />
                             </picture>
                             <button class="btn" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                                <span class="blueTitle col m-auto h4">QUI SUIS-JE ?</span>
+                                <span class="blueTitle col m-auto h4 border rounded">QUI SUIS-JE ?</span>
                             </button>
                         </p>
                         <div class="collapse" id="collapseExample">
@@ -108,38 +108,33 @@
                                 <img alt="icone Expérience" src="assets/img/exp50x44.png" />
                             </picture>
                             <button class="btn" type="button" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">
-                                <span class="blueTitle col m-auto h4 md-h2">EXPÉRIENCES</span>
+                                <span class="blueTitle col m-auto h4 md-h2 border rounded">EXPÉRIENCES</span>
                             </button>
                         </p>
                         <div class="collapse" id="collapseExample2">
-                            <div style="background-color: white; margin: 10px;">
-                                <h2>Développement d'un site Web (6 mois)</h2>
-                            </div>
-                            <div style="background-color: white; margin: 10px;">
-                                <h2>Agent-Polyvalent</h2>
-                                <h3>Pathé</h3>
-                                <h3>2014-2016</h3>
-                            </div>
-                            <div style="background-color: white; margin: 10px;">
-                                <h2>Agent d'entretien</h2>
-                                <h3>Parc Astérix</h3>
-                                <h3>2013</h3>
-                            </div>
+                            <ul class="card card-body text-center">
+                                <li>Développement d'un site Web (6 mois)</li>
+                                <li>Agent-Polyvalent</li>
+                                <li>Agent d'entretien</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
                 <!--Section contact-->
                 <div class="col-md-3">
-                    <p class="blueTitle h5 text-center">Contact</p>
                     <div class="row contactDiv">
-                        <picture class="col-3 col-md-6 img-responsive p-4 text-center">
+                        <p class="col blueTitle h5 text-center ">Contact</p>
+                    </div>
+                    <div class="row contactDiv">
+
+                        <picture class="col-3 col-md-6 img-fluid p-4 text-center">
                             <source srcset="assets/img/mail100x100.png" media="(min-width: 800px)">
                             <img alt="icone d'e-mail" src="assets/img/mail50x36.png" />
                         </picture>
                         <p class="my-auto text-right">: <a href="#">martiretti.fabien@gmail.com</a></p>
                     </div>
                     <div class="row contactDiv">
-                        <picture class="col-3 col-md-6 img-responsive py-4 text-center">
+                        <picture class="col-3 col-md-6 img-fluid py-4 text-center">
                             <source srcset="assets/img/mobile80x100.png" media="(min-width: 800px)" />
                             <img alt="icone de telephone mobile" src="assets/img/mobile40x50.png" />
                         </picture>
@@ -149,42 +144,43 @@
             </div>
         </section>
         <!--Compétences-->
-        <section id="Page2" class="page container-fluid" style="display:none">
+        <section id="Page2" class="page mt-3 container-fluid" style="display:none">
             <div>
                 <!---->
                 <div id="frontEnd">
                     <div class="row py-2">
-                        <div class="col-3 col-md-1 offset-md-4 img-fluid">
+                        <div class="col-3 mt-md-3 text-right col-md-1 offset-md-4 img-fluid">
                             <img title="Front-end" alt="img de chevrons" src="assets/img/frontend.png" />
                         </div>
                         <button class="btn col-9 col-md-3" type="button" data-toggle="collapse" data-target="#collapseFrontEnd" aria-expanded="false" aria-controls="collapseFrontEnd">
-                            <span class="blueTitle m-auto h2">Front-end</span>
+                            <span class="blueTitle m-auto h2 border rounded">Front-end</span>
                         </button>
                     </div>
+                    <!---->
                     <div class="collapse py-2" id="collapseFrontEnd">
                         <div class="card card-body">
                             <div class="row">
                                 <div class="col-2 col-md-1 text-center offset-md-4">
                                     <img title="HTML_5" alt="Logo du HTML_5" src="assets/img/HTML.png" />
                                 </div>
-                                <div class="col-10 col-md-3 my-auto">
-                                    <img alt="Jauge pour jauger le niveau" src="assets/img/jauges/jauge4-200x.png" />
+                                <div class="progress col-8 offset-2 offset-md-0 col-md-3 my-auto paddingOff">
+                                    <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-2 col-md-1 text-center offset-md-4">
                                     <img title="CSS_3" alt="Logo du CSS_3" src="assets/img/CSS.png" />
                                 </div>
-                                <div class="col-10 col-md-3 my-auto">
-                                    <img alt="Jauge pour jauger le niveau" src="assets/img/jauges/jauge3-200x.png">
+                                <div class="progress col-8 offset-2 offset-md-0 col-md-3 my-auto paddingOff">
+                                    <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-2 col-md-1 text-center offset-md-4">
                                     <img title="JavaScript" alt="Logo du JavaScript" src="assets/img/JS.png" />
                                 </div>
-                                <div class="col-10 col-md-3 my-auto">
-                                    <img alt="Jauge pour jauger le niveau" src="assets/img/jauges/jauge2-200x.png">
+                                <div class="progress col-8 offset-2 offset-md-0 col-md-3 my-auto paddingOff">
+                                    <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </div>
                         </div>
@@ -193,11 +189,11 @@
                 <!---->
                 <div id="backEnd">
                     <div class="row py-2">
-                        <div class="col-3 col-md-1 img-fluid offset-md-4">
+                        <div class="col-3 mt-md-2 text-right col-md-1 img-fluid offset-md-4">
                             <img title="Back-end" alt="img d'engrenages" src="assets/img/backend.png" />
                         </div>
                         <button class="btn col-9 col-md-3 " type="button" data-toggle="collapse" data-target="#collapseBackEnd" aria-expanded="false" aria-controls="collapseBackEnd">
-                            <span class="blueTitle m-auto h2">Back-end</span>
+                            <span class="blueTitle m-auto h2 border rounded">Back-end</span>
                         </button>
                     </div>
                     <div class="collapse py-2" id="collapseBackEnd">
@@ -206,16 +202,16 @@
                                 <div class="col-2 col-md-1 text-center offset-md-4">
                                     <img title="PHP" alt="Logo du PHP" src="assets/img/php.png" />
                                 </div>
-                                <div class="col-10 col-md-3 my-auto">
-                                    <img alt="Jauge pour jauger le niveau" src="assets/img/jauges/jauge3-200x.png">
+                                <div class="progress col-8 offset-2 offset-md-0 col-md-3 my-auto paddingOff">
+                                    <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-2 col-md-1 text-center offset-md-4">
                                     <img title="MySQL" alt="Logo du MySQL" src="assets/img/mySQL.png" />
                                 </div>
-                                <div class="col-10 col-md-3 my-auto">
-                                    <img alt="Jauge pour jauger le niveau" src="assets/img/jauges/jauge2-200x.png">
+                                <div class="progress col-8 offset-2 offset-md-0 col-md-3 my-auto paddingOff">
+                                    <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </div>
                         </div>
@@ -224,11 +220,11 @@
                 <!---->
                 <div id="autres">
                     <div class="row py-2">
-                        <div class="col-3 col-md-1 img-fluid offset-md-4">
+                        <div class="col-3 mt-md-2 text-right col-md-1 img-fluid offset-md-4">
                             <img title="Autres" alt="img autres" src="assets/img/autres.png" />
                         </div>
                         <button class="btn col-9 col-md-3" type="button" data-toggle="collapse" data-target="#collapseAutres" aria-expanded="false" aria-controls="collapseAutres">
-                            <span class="blueTitle m-auto h2">Autres</span>
+                            <span class="blueTitle m-auto h2 border rounded">Autres</span>
                         </button>
                     </div>
                     <div class="collapse py-2" id="collapseAutres">
@@ -237,32 +233,32 @@
                                 <div class="col-2 col-md-1 text-center offset-md-4">
                                     <img title="VisualStudio" alt="Logo de Visual Studio" src="assets/img/visual.png" />
                                 </div>
-                                <div class="col-10 col-md-3 my-auto">
-                                    <img alt="Jauge pour jauger le niveau" src="assets/img/jauges/jauge4-200x.png">
+                                <div class="progress col-8 offset-2 offset-md-0 col-md-3 my-auto paddingOff">
+                                    <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-2 col-md-1 text-center offset-md-4">
                                     <img title="Visual Code" alt="Logo de Visual Code" src="assets/img/visualcode.png" />
                                 </div>
-                                <div class="col-10 col-md-3 my-auto">
-                                    <img alt="Jauge pour jauger le niveau" src="assets/img/jauges/jauge4-200x.png">
+                                <div class="progress col-8 offset-2 offset-md-0 col-md-3 my-auto paddingOff">
+                                    <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-2 col-md-1 text-center offset-md-4">
                                     <img title="Langage C#" alt="Logo du C#" src="assets/img/csharp.png" />
                                 </div>
-                                <div class="col-10 col-md-3 my-auto">
-                                    <img alt="Jauge pour jauger le niveau" src="assets/img/jauges/jauge4-200x.png">
+                                <div class="progress col-8 offset-2 offset-md-0 col-md-3 my-auto paddingOff">
+                                    <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-2 col-md-1 text-center offset-md-4">
                                     <img title="Microsoft Office" alt="Logo de Microsoft office" src="assets/img/office.png" />
                                 </div>
-                                <div class="col-10 col-md-3 my-auto">
-                                    <img alt="Jauge pour jauger le niveau" src="assets/img/jauges/Jauge3-200x.png">
+                                <div class="progress col-8 offset-2 offset-md-0 col-md-3 my-auto paddingOff">
+                                    <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </div>
                         </div>
@@ -271,7 +267,7 @@
             </div>
         </section>
         <!--Expériences-->
-        <section id="Page3" class="page container-fluid" style="display:none">
+        <section id="Page3" class="page mt-3 container-fluid" style="display:none">
             <div class="mt-2 border">
                 <div class="row">
                     <div class="mt-md-2 img-fluid col-4 col-md-1 offset-md-3 text-center">
@@ -358,7 +354,7 @@
             </div>
         </section>
         <!--Formations-->
-        <section id="Page4" class="page container-fluid" style="display:none">
+        <section id="Page4" class="page mt-3 container-fluid" style="display:none">
             <div class="mt-2 border">
                 <div class="row">
                     <div class="img-fluid col-3 col-md-1 mt-md-3 offset-md-3 text-center">
@@ -468,7 +464,7 @@
             </div>
         </section>
         <!--Projets-->
-        <section id="Page5" class="page container-fluid" style="display:none">
+        <section id="Page5" class="page mt-3 container-fluid" style="display:none">
             <p>Mes projets son divers et variés !</p>
         </section>
         <!--Scripts-->
